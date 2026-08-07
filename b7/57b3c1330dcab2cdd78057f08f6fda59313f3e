@@ -1,0 +1,37 @@
+.github/workflows/ecosystem-ci-from-pr.yml
+  s_c70d8631fc6479::t_02b557f27a9eb6 63,180
+.github/workflows/ecosystem-ci.yml
+  s_c70d8631fc6479::t_de8d7cc6e6d166 78
+tests/vinext.ts
+  s_ad8d96e900d8aa::t_41b1edbf81fa71 1-12
+.github/workflows/ecosystem-ci-rolldown.yml
+  s_c70d8631fc6479::t_d90971fc241a69 60
+.github/workflows/ecosystem-ci-from-pr-rolldown.yml
+  s_c70d8631fc6479::t_e871175b6ab84f 55,155
+.github/workflows/ecosystem-ci-selected.yml
+  s_c70d8631fc6479::t_6c188f597b40f5 74
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "b757b3c1330dcab2cdd78057f08f6fda59313f3e",
+  "prompts": {},
+  "sessions": {
+    "s_ad8d96e900d8aa": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019f938f-7869-7e23-bc6f-0935ace0d6dc",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "James <james@eli.cx>"
+    },
+    "s_c70d8631fc6479": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019fd669-ce56-7653-abaa-519d3e215d79",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "James <james@eli.cx>"
+    }
+  }
+}
